@@ -1,0 +1,35 @@
+body{
+    
+    color:black;
+/*    padding: 30px;*/
+    border:5px darkgreen solid;
+}
+
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    border-bottom: 5px;
+    border-bottom-color: darkgreen;
+    border-bottom-style: solid;
+    margin: 0px;
+}
+
+.main{
+    display:grid;
+    grid-template-columns: 1fr 4fr; 
+/*    color: red;*/
+}
+
+.nav{
+    border-right: 5px darkgreen solid;
+/*    margin:0px;*/
+    font-size:25px;
+    
+}
+
+.article{
+        text-align:justify;
+        padding-left:20px;
+    
+}
