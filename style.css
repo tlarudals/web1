@@ -33,6 +33,20 @@ h1{
         padding-left:20px;
     
 }
+
+.footer{
+    text-align: center;
+    border-top: 5px darkgreen solid;
+}
+
+.footer div{
+    display:inline;
+    margin:70px;
+/*    grid-template-columns: 1fr 1fr 1fr; */
+/*    float:left;*/
+   
+}
+
 @media(max-width:800px){
     .main{
         display:block;
