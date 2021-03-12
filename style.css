@@ -33,3 +33,14 @@ h1{
         padding-left:20px;
     
 }
+@media(max-width:800px){
+    .main{
+        display:block;
+             
+    }
+    body, .nav, .article{
+        border: none;
+    }
+    
+    
+}
